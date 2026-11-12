@@ -1,0 +1,30 @@
+# Virtual environment (matches your 'myenv' folder)
+myenv/
+venv/
+env/
+.venv/
+
+# Python cache and bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch model weights, checkpoints, and large datasets
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+checkpoints/
+data/
+runs/
+wandb/
+
+# Environment variables
+.env
+
+# IDE and OS files (VS Code, macOS, Windows)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
